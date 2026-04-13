@@ -1,411 +1,351 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="color-scheme" content="light dark">
-  <meta name="supported-color-schemes" content="light dark">
-  <title>KW Signature Luxury | New Listings from $1M+</title>
-  <!--[if mso]>
-  <noscript>
-    <xml>
-      <o:OfficeDocumentSettings>
-        <o:AllowPNG/>
-        <o:PixelsPerInch>96</o:PixelsPerInch>
-      </o:OfficeDocumentSettings>
-    </xml>
-  </noscript>
-  <![endif]-->
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>KW Signature Luxury Newsletter</title>
+    <!--[if mso]>
+    <noscript>
+        <xml>
+            <o:OfficeDocumentSettings>
+                <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+    </noscript>
+    <![endif]-->
+    <style type="text/css">
+        /* Reset */
+        body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+        img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+        body { margin: 0 !important; padding: 0 !important; width: 100% !important; }
 
-    :root {
-      color-scheme: light dark;
-      supported-color-schemes: light dark;
-    }
+        /* Web Font Import - renders in Apple Mail, iOS Mail, some Android */
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap');
 
-    body, table, td, a {
-      -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-    }
-    table, td {
-      mso-table-lspace: 0pt;
-      mso-table-rspace: 0pt;
-    }
-    img {
-      -ms-interpolation-mode: bicubic;
-      border: 0;
-      height: auto;
-      line-height: 100%;
-      outline: none;
-      text-decoration: none;
-    }
-    body {
-      margin: 0 !important;
-      padding: 0 !important;
-      width: 100% !important;
-      background-color: #0a0a0a;
-      font-family: 'Inter', Arial, sans-serif;
-      color: #ffffff;
-    }
-    .email-wrapper {
-      width: 100%;
-      background-color: #0a0a0a;
-    }
-    .email-container {
-      max-width: 700px;
-      margin: 0 auto;
-      background-color: #0a0a0a;
-    }
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            .darkmode-bg { background-color: #0a0a0a !important; }
+        }
 
-    /* Header Nav */
-    .header-nav {
-      padding: 24px 32px;
-      text-align: center;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    .header-nav a {
-      color: #d4af37;
-      text-decoration: none;
-      font-family: 'Inter', Arial, sans-serif;
-      font-size: 13px;
-      font-weight: 500;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      margin: 0 18px;
-    }
-    .header-nav a:hover {
-      color: #e8c84a;
-    }
-
-    /* Hero */
-    .hero-section {
-      padding: 60px 32px;
-      text-align: center;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    .hero-title {
-      font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
-      font-size: 38px;
-      font-weight: 600;
-      color: #ffffff;
-      margin: 0 0 12px 0;
-      line-height: 1.2;
-      letter-spacing: 0.5px;
-    }
-    .hero-subtitle {
-      font-family: 'Inter', Arial, sans-serif;
-      font-size: 14px;
-      font-weight: 300;
-      color: #999999;
-      margin: 0;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-    }
-    .hero-divider {
-      width: 60px;
-      height: 1px;
-      background-color: #d4af37;
-      margin: 24px auto;
-      border: none;
-    }
-
-    /* Preview Text (hidden) */
-    .preview-text {
-      display: none;
-      font-size: 1px;
-      color: #0a0a0a;
-      line-height: 1px;
-      max-height: 0px;
-      max-width: 0px;
-      opacity: 0;
-      overflow: hidden;
-      mso-hide: all;
-    }
-
-    /* Listing Card */
-    .listing-card {
-      padding: 0 0 40px 0;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    .listing-photo {
-      width: 100%;
-      height: 400px;
-      object-fit: cover;
-      display: block;
-    }
-    .listing-details {
-      padding: 24px 32px 0 32px;
-    }
-    .listing-address {
-      font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
-      font-size: 22px;
-      font-weight: 500;
-      color: #ffffff;
-      margin: 0 0 8px 0;
-      line-height: 1.3;
-    }
-    .listing-price {
-      font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
-      font-size: 26px;
-      font-weight: 600;
-      color: #d4af37;
-      margin: 0 0 14px 0;
-    }
-    .listing-specs-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .listing-specs {
-      font-family: 'Inter', Arial, sans-serif;
-      font-size: 13px;
-      font-weight: 400;
-      color: #cccccc;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
-    .listing-city {
-      font-family: 'Inter', Arial, sans-serif;
-      font-size: 11px;
-      font-weight: 500;
-      color: #d4af37;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      border: 1px solid #d4af37;
-      padding: 4px 12px;
-      border-radius: 2px;
-      white-space: nowrap;
-    }
-
-    /* Footer */
-    .footer-section {
-      padding: 48px 32px;
-      text-align: center;
-      border-top: 1px solid #1a1a1a;
-    }
-    .footer-logo {
-      width: 180px;
-      height: auto;
-      margin-bottom: 20px;
-    }
-    .footer-description {
-      font-family: 'Inter', Arial, sans-serif;
-      font-size: 13px;
-      color: #888888;
-      line-height: 1.6;
-      margin: 0 0 24px 0;
-    }
-    .social-links {
-      margin: 0 0 24px 0;
-    }
-    .social-links a {
-      color: #d4af37;
-      text-decoration: none;
-      font-family: 'Inter', Arial, sans-serif;
-      font-size: 12px;
-      font-weight: 500;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      margin: 0 10px;
-    }
-    .social-links a:hover {
-      color: #e8c84a;
-    }
-    .footer-office {
-      font-family: 'Inter', Arial, sans-serif;
-      font-size: 12px;
-      color: #666666;
-      line-height: 1.8;
-      margin: 0 0 16px 0;
-    }
-    .footer-office a {
-      color: #d4af37;
-      text-decoration: none;
-    }
-    .footer-copyright {
-      font-family: 'Inter', Arial, sans-serif;
-      font-size: 11px;
-      color: #555555;
-      margin: 0 0 8px 0;
-    }
-    .footer-unsub {
-      font-family: 'Inter', Arial, sans-serif;
-      font-size: 11px;
-      color: #555555;
-      margin: 0 0 8px 0;
-    }
-    .footer-unsub a {
-      color: #888888;
-      text-decoration: underline;
-    }
-
-    /* Dark Mode */
-    @media (prefers-color-scheme: dark) {
-      .email-wrapper,
-      .email-container {
-        background-color: #0a0a0a !important;
-      }
-    }
-
-    /* Mobile Responsive */
-    @media screen and (max-width: 700px) {
-      .email-container {
-        width: 100% !important;
-      }
-      .hero-title {
-        font-size: 28px !important;
-      }
-      .hero-section {
-        padding: 40px 20px !important;
-      }
-      .listing-photo {
-        height: 280px !important;
-      }
-      .listing-details {
-        padding: 20px 20px 0 20px !important;
-      }
-      .listing-address {
-        font-size: 18px !important;
-      }
-      .listing-price {
-        font-size: 22px !important;
-      }
-      .header-nav {
-        padding: 20px 16px !important;
-      }
-      .header-nav a {
-        font-size: 11px !important;
-        margin: 0 10px !important;
-      }
-      .footer-section {
-        padding: 36px 20px !important;
-      }
-    }
-  </style>
+        /* Mobile responsive */
+        @media only screen and (max-width: 600px) {
+            .mobile-full { width: 100% !important; }
+            .mobile-padding { padding-left: 20px !important; padding-right: 20px !important; }
+            .mobile-stack { display: block !important; width: 100% !important; }
+            .mobile-center { text-align: center !important; }
+            .mobile-hero-text { font-size: 32px !important; line-height: 38px !important; }
+            .mobile-listing-img { height: 280px !important; }
+            .mobile-hide { display: none !important; }
+            .mobile-btn { width: 100% !important; display: block !important; }
+        }
+    </style>
 </head>
-<body>
-  <!-- Preview Text -->
-  <div class="preview-text">
+
+<body style="margin: 0; padding: 0; background-color: #0a0a0a; font-family: 'Inter', Arial, Helvetica, sans-serif; color: #ffffff;">
+
+<!-- Preview Text (hidden) -->
+<div style="display: none; max-height: 0; overflow: hidden; font-size: 1px; line-height: 1px; color: #0a0a0a;">
     Explore luxury properties listed with KW Signature.
-    &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
-  </div>
+</div>
 
-  <div class="email-wrapper" style="background-color: #0a0a0a;">
-    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #0a0a0a;">
-      <tr>
-        <td align="center" valign="top">
-          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="700" class="email-container" style="max-width: 700px; background-color: #0a0a0a;">
+<!-- Outer Wrapper -->
+<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="background-color: #0a0a0a;" bgcolor="#0a0a0a">
+<tr>
+<td align="center" style="padding: 0;">
 
-            <!-- HEADER NAV -->
-            <tr>
-              <td class="header-nav" style="padding: 24px 32px; text-align: center; border-bottom: 1px solid #1a1a1a;">
-                <a href="https://www.har.com/search/dosearch?listing_officeid=kwsg01&sort=listprice%20desc" style="color: #d4af37; text-decoration: none; font-family: 'Inter', Arial, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; margin: 0 18px;">Listings</a>
-                <a href="https://kws17.com/luxury/" style="color: #d4af37; text-decoration: none; font-family: 'Inter', Arial, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; margin: 0 18px;">About</a>
-                <a href="https://kws17.com" style="color: #d4af37; text-decoration: none; font-family: 'Inter', Arial, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; margin: 0 18px;">kws17.com</a>
-              </td>
-            </tr>
+<!-- Email Container (700px max) -->
+<table role="presentation" cellpadding="0" cellspacing="0" width="700" class="mobile-full" style="max-width: 700px; background-color: #0a0a0a;" bgcolor="#0a0a0a">
 
-            <!-- HERO SECTION -->
-            <tr>
-              <td class="hero-section" style="padding: 60px 32px; text-align: center; border-bottom: 1px solid #1a1a1a;">
-                <h1 class="hero-title" style="font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; font-size: 38px; font-weight: 600; color: #ffffff; margin: 0 0 12px 0; line-height: 1.2;">KW Signature Luxury</h1>
-                <hr class="hero-divider" style="width: 60px; height: 1px; background-color: #d4af37; margin: 24px auto; border: none;">
-                <p class="hero-subtitle" style="font-family: 'Inter', Arial, sans-serif; font-size: 14px; font-weight: 300; color: #999999; margin: 0; letter-spacing: 2px; text-transform: uppercase;">New Listings from $1M+</p>
-              </td>
-            </tr>
 
-            <!-- LISTING 1: 135 1st St, Dickinson -->
-            <tr>
-              <td class="listing-card" style="padding: 0 0 40px 0; border-bottom: 1px solid #1a1a1a;">
-                <!-- Photo -->
-                <a href="https://www.har.com/homedetail/135-1st-st-dickinson-tx-77539/2654153" target="_blank" style="text-decoration: none;">
-                  <img src="https://kwsnewsletter.brokermarketingdesk.com/april-15-2026-newsletter/listings/135-1st-st.jpg" alt="135 1st St, Dickinson, TX 77539" class="listing-photo" style="width: 100%; height: 400px; object-fit: cover; display: block;">
-                </a>
-                <!-- Details -->
-                <div class="listing-details" style="padding: 24px 32px 0 32px;">
-                  <h2 class="listing-address" style="font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; font-size: 22px; font-weight: 500; color: #ffffff; margin: 0 0 8px 0; line-height: 1.3;">135 1st St, Dickinson, TX 77539</h2>
-                  <p class="listing-price" style="font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; font-size: 26px; font-weight: 600; color: #d4af37; margin: 0 0 14px 0;">$1,100,000</p>
-                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                    <tr>
-                      <td align="left" valign="middle" style="font-family: 'Inter', Arial, sans-serif; font-size: 13px; font-weight: 400; color: #cccccc; letter-spacing: 1px; text-transform: uppercase;">
-                        4 BD&nbsp;&nbsp;|&nbsp;&nbsp;3F 1H BA&nbsp;&nbsp;|&nbsp;&nbsp;3,485 SQFT
-                      </td>
-                      <td align="right" valign="middle">
-                        <span style="font-family: 'Inter', Arial, sans-serif; font-size: 11px; font-weight: 500; color: #d4af37; letter-spacing: 1.5px; text-transform: uppercase; border: 1px solid #d4af37; padding: 4px 12px; border-radius: 2px; white-space: nowrap;">Dickinson</span>
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-              </td>
-            </tr>
-
-            <!-- LISTING 2: 4919 Olive Province Ln, Manvel -->
-            <tr>
-              <td class="listing-card" style="padding: 0 0 40px 0; border-bottom: 1px solid #1a1a1a;">
-                <!-- Photo -->
-                <a href="https://www.har.com/homedetail/4919-olive-province-ln-manvel-tx-77578/16025866" target="_blank" style="text-decoration: none;">
-                  <img src="https://kwsnewsletter.brokermarketingdesk.com/april-15-2026-newsletter/listings/4919-olive-province-ln.jpg" alt="4919 Olive Province Ln, Manvel, TX 77578" class="listing-photo" style="width: 100%; height: 400px; object-fit: cover; display: block;">
-                </a>
-                <!-- Details -->
-                <div class="listing-details" style="padding: 24px 32px 0 32px;">
-                  <h2 class="listing-address" style="font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; font-size: 22px; font-weight: 500; color: #ffffff; margin: 0 0 8px 0; line-height: 1.3;">4919 Olive Province Ln, Manvel, TX 77578</h2>
-                  <p class="listing-price" style="font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; font-size: 26px; font-weight: 600; color: #d4af37; margin: 0 0 14px 0;">$1,075,000</p>
-                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                    <tr>
-                      <td align="left" valign="middle" style="font-family: 'Inter', Arial, sans-serif; font-size: 13px; font-weight: 400; color: #cccccc; letter-spacing: 1px; text-transform: uppercase;">
-                        5 BD&nbsp;&nbsp;|&nbsp;&nbsp;4F 1H BA&nbsp;&nbsp;|&nbsp;&nbsp;4,025 SQFT
-                      </td>
-                      <td align="right" valign="middle">
-                        <span style="font-family: 'Inter', Arial, sans-serif; font-size: 11px; font-weight: 500; color: #d4af37; letter-spacing: 1.5px; text-transform: uppercase; border: 1px solid #d4af37; padding: 4px 12px; border-radius: 2px; white-space: nowrap;">Manvel</span>
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-              </td>
-            </tr>
-
-            <!-- FOOTER -->
-            <tr>
-              <td class="footer-section" style="padding: 48px 32px; text-align: center; border-top: 1px solid #1a1a1a;">
-                <!-- KWS Logo -->
+<!-- ============================================ -->
+<!-- HEADER / BRANDING -->
+<!-- ============================================ -->
+<tr>
+<td align="center" style="padding: 50px 30px 40px 30px; border-bottom: 1px solid rgba(255,255,255,0.1);" class="mobile-padding">
+    <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+        <!-- Logo -->
+        <tr>
+            <td align="center" style="padding-bottom: 35px;">
                 <a href="https://kws17.com" target="_blank" style="text-decoration: none;">
-                  <img src="https://kwsnewsletter.brokermarketingdesk.com/kws-logo.png" alt="KW Signature" class="footer-logo" style="width: 180px; height: auto; margin-bottom: 20px;">
+                    <img src="https://kws17.com/wp-content/uploads/2026/03/kwsignature-luxury-scaled.png"
+                         alt="KW Signature Luxury"
+                         width="380"
+                         style="display: block; max-width: 380px; width: 100%; height: auto;">
                 </a>
-                <p class="footer-description" style="font-family: 'Inter', Arial, sans-serif; font-size: 13px; color: #888888; line-height: 1.6; margin: 0 0 24px 0;">KW Signature Luxury is a division of Keller Williams Signature, representing luxury properties.</p>
-
-                <!-- Social Links -->
-                <div class="social-links" style="margin: 0 0 24px 0;">
-                  <a href="https://www.facebook.com/KWSignature17" style="color: #d4af37; text-decoration: none; font-family: 'Inter', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; margin: 0 10px;">Facebook</a>
-                  <a href="https://www.instagram.com/kwsignature17" style="color: #d4af37; text-decoration: none; font-family: 'Inter', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; margin: 0 10px;">Instagram</a>
-                  <a href="https://www.youtube.com/@kwsignature17" style="color: #d4af37; text-decoration: none; font-family: 'Inter', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; margin: 0 10px;">YouTube</a>
-                  <a href="https://kws17.com" style="color: #d4af37; text-decoration: none; font-family: 'Inter', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; margin: 0 10px;">kws17.com</a>
-                </div>
-
-                <!-- Office Info -->
-                <p class="footer-office" style="font-family: 'Inter', Arial, sans-serif; font-size: 12px; color: #666666; line-height: 1.8; margin: 0 0 16px 0;">
-                  KW Signature&nbsp;&nbsp;|&nbsp;&nbsp;920 S Fry Rd, Katy, TX 77450<br>
-                  <a href="tel:2815997600" style="color: #d4af37; text-decoration: none;">281-599-7600</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://kws17.com" style="color: #d4af37; text-decoration: none;">kws17.com</a>
-                </p>
-
-                <!-- Copyright -->
-                <p class="footer-copyright" style="font-family: 'Inter', Arial, sans-serif; font-size: 11px; color: #555555; margin: 0 0 8px 0;">&copy; 2026 KW Signature Luxury. Independently Owned and Operated.</p>
-
-                <!-- Subscription Notice -->
-                <p class="footer-unsub" style="font-family: 'Inter', Arial, sans-serif; font-size: 11px; color: #555555; margin: 0 0 8px 0;">You've received this email because you've subscribed to our newsletter.</p>
-
-                <!-- Brevo Tags -->
-                <p style="font-family: 'Inter', Arial, sans-serif; font-size: 11px; color: #555555; margin: 0;">
-                  <a href="{{ unsubscribe }}" style="color: #888888; text-decoration: underline;">Unsubscribe</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="{{ mirror }}" style="color: #888888; text-decoration: underline;">View in browser</a>
-                </p>
-              </td>
-            </tr>
-
-          </table>
-        </td>
-      </tr>
+            </td>
+        </tr>
+        <!-- Nav Links -->
+        <tr>
+            <td align="center" style="padding-top: 10px;">
+                <table role="presentation" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td style="padding: 0 20px;">
+                            <a href="https://www.har.com/search/dosearch?map_tools_nwlat=31.720371129825963&map_tools_nwlng=-98.21839788442517&map_tools_selat=28.52413462664944&map_tools_selng=-93.30906779155312&for_sale=1&mp_term_years=30&mp_mortgage_rate=6.11&mp_down_payment_rate=20&listing_officeid=kwsg01&sort=listprice%20desc&view=map" style="color: #ffffff; text-decoration: none; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; opacity: 0.8; font-family: 'Inter', Arial, sans-serif;">Listings</a>
+                        </td>
+                        <td style="padding: 0 20px;">
+                            <a href="https://kws17.com/luxury/" style="color: #ffffff; text-decoration: none; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; opacity: 0.8; font-family: 'Inter', Arial, sans-serif;">About</a>
+                        </td>
+                        <td style="padding: 0 20px;">
+                            <a href="https://kws17.com" style="color: #ffffff; text-decoration: none; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; opacity: 0.8; font-family: 'Inter', Arial, sans-serif;">kws17.com</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
     </table>
-  </div>
+</td>
+</tr>
+
+
+<!-- ============================================ -->
+<!-- HERO SECTION -->
+<!-- ============================================ -->
+<tr>
+<td align="center" style="padding: 0;">
+    <!--[if mso]>
+    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:700px;">
+    <v:fill type="frame" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1400" color="#0a0a0a"/>
+    <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+    <![endif]-->
+    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1400'); background-size: cover; background-position: center; background-color: #1a1a1a;">
+        <tr>
+            <td style="background-color: rgba(0,0,0,0.55);">
+                <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td align="center" style="padding: 100px 40px 100px 40px;" class="mobile-padding">
+                            <h1 style="margin: 0 0 20px 0; font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; font-size: 48px; line-height: 56px; font-weight: 400; color: #ffffff;" class="mobile-hero-text">
+                                Defining the<br><em style="font-style: italic;">Standard of Living</em>
+                            </h1>
+                            <p style="margin: 0; font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; font-size: 22px; line-height: 34px; font-weight: 300; color: #ffffff; opacity: 0.9; max-width: 500px; letter-spacing: 1px;">
+                                Take a look at our premier luxury listings.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--[if mso]>
+    </v:textbox>
+    </v:rect>
+    <![endif]-->
+</td>
+</tr>
+
+
+<!-- ============================================ -->
+<!-- SECTION HEADER: ACTIVE LISTINGS -->
+<!-- ============================================ -->
+<tr>
+<td style="padding: 60px 30px 40px 30px;" class="mobile-padding">
+    <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td style="border-bottom: 1px solid rgba(212,175,55,0.2); padding-bottom: 30px;">
+                <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td class="mobile-stack mobile-center" style="vertical-align: bottom;">
+                            <h2 style="margin: 0 0 8px 0; font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; font-size: 36px; font-weight: 400; color: #ffffff;">Active Listings</h2>
+                            <p style="margin: 0; font-size: 10px; color: #d4af37; text-transform: uppercase; letter-spacing: 4px; font-weight: 700; font-family: 'Inter', Arial, sans-serif;">$1M and Beyond</p>
+                        </td>
+                        <td align="right" class="mobile-stack mobile-center" style="vertical-align: bottom; padding-top: 10px;">
+                            <p style="margin: 0; font-size: 16px; color: #ffffff; font-weight: 300; letter-spacing: 2px; font-family: 'Inter', Arial, sans-serif;">Listed with KWS</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</td>
+</tr>
+
+
+
+
+<!-- ============================================ -->
+<!-- LISTING 1: 135 1ST ST, DICKINSON -->
+<!-- ============================================ -->
+<tr>
+<td style="padding: 0 30px 50px 30px;" class="mobile-padding">
+    <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td style="padding-bottom: 20px;">
+                <a href="https://www.har.com/homedetail/135-1st-st-dickinson-tx-77539/2654153" target="_blank" style="text-decoration: none;">
+                <img src="https://kwsnewsletter.brokermarketingdesk.com/april-15-2026-newsletter/listings/135-1st-st.jpg"
+                     alt="135 1st St, Dickinson TX"
+                     width="640"
+                     class="mobile-listing-img"
+                     style="display: block; width: 100%; height: 400px; object-fit: cover;">
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-bottom: 8px;">
+                <h3 style="margin: 0; font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; font-size: 24px; font-weight: 400; color: #ffffff;">135 1st St, Dickinson, TX 77539</h3>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-bottom: 12px;">
+                <p style="margin: 0; font-size: 24px; color: #d4af37; font-weight: 300; font-family: 'Inter', Arial, sans-serif;">$1,100,000</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="font-size: 10px; color: #ffffff; opacity: 0.4; text-transform: uppercase; letter-spacing: 2px; font-weight: 700; font-family: 'Inter', Arial, sans-serif;">
+                            4 BD &nbsp;|&nbsp; 3F 1H BA &nbsp;|&nbsp; 3,485 SQFT
+                        </td>
+                        <td align="right">
+                            <span style="background-color: rgba(255,255,255,0.1); padding: 5px 12px; font-size: 10px; color: #ffffff; opacity: 0.4; text-transform: uppercase; letter-spacing: 2px; font-family: 'Inter', Arial, sans-serif;">Dickinson</span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</td>
+</tr>
+
+
+<!-- ============================================ -->
+<!-- LISTING 2: 4919 OLIVE PROVINCE LN, MANVEL -->
+<!-- ============================================ -->
+<tr>
+<td style="padding: 0 30px 50px 30px;" class="mobile-padding">
+    <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td style="padding-bottom: 20px;">
+                <a href="https://www.har.com/homedetail/4919-olive-province-ln-manvel-tx-77578/16025866" target="_blank" style="text-decoration: none;">
+                <img src="https://kwsnewsletter.brokermarketingdesk.com/april-15-2026-newsletter/listings/4919-olive-province-ln.jpg"
+                     alt="4919 Olive Province Ln, Manvel TX"
+                     width="640"
+                     class="mobile-listing-img"
+                     style="display: block; width: 100%; height: 400px; object-fit: cover;">
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-bottom: 8px;">
+                <h3 style="margin: 0; font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; font-size: 24px; font-weight: 400; color: #ffffff;">4919 Olive Province Ln, Manvel, TX 77578</h3>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-bottom: 12px;">
+                <p style="margin: 0; font-size: 24px; color: #d4af37; font-weight: 300; font-family: 'Inter', Arial, sans-serif;">$1,075,000</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="font-size: 10px; color: #ffffff; opacity: 0.4; text-transform: uppercase; letter-spacing: 2px; font-weight: 700; font-family: 'Inter', Arial, sans-serif;">
+                            5 BD &nbsp;|&nbsp; 4F 1H BA &nbsp;|&nbsp; 4,025 SQFT
+                        </td>
+                        <td align="right">
+                            <span style="background-color: rgba(255,255,255,0.1); padding: 5px 12px; font-size: 10px; color: #ffffff; opacity: 0.4; text-transform: uppercase; letter-spacing: 2px; font-family: 'Inter', Arial, sans-serif;">Manvel</span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</td>
+</tr>
+
+
+<!-- ============================================ -->
+<!-- FOOTER -->
+<!-- ============================================ -->
+<tr>
+<td style="padding: 60px 30px 40px 30px; background-color: #000000;" bgcolor="#000000" class="mobile-padding">
+    <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <!-- Left: Logo + Description -->
+            <td class="mobile-stack mobile-center" style="vertical-align: top; width: 55%; padding-bottom: 30px;">
+                <a href="https://kws17.com" target="_blank" style="text-decoration: none;">
+                    <!-- REPLACE THIS URL with your Brevo-hosted or kws17.com-hosted logo -->
+                    <img src="https://kws17.com/wp-content/uploads/2024/06/KellerWilliams_Realty_Signature_Logo_RGB-rev.png"
+                         alt="KW Signature"
+                         width="240"
+                         style="display: block; max-width: 240px; height: auto; opacity: 0.9; margin-bottom: 25px;">
+                </a>
+                <p style="margin: 0; font-size: 11px; color: #ffffff; opacity: 0.3; line-height: 22px; max-width: 350px; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; font-family: 'Inter', Arial, sans-serif;">
+                    KW Signature Luxury is a division of Keller Williams Signature, representing luxury properties.
+                </p>
+            </td>
+
+
+            <!-- Connect Column -->
+            <td class="mobile-stack mobile-center" style="vertical-align: top; width: 23%; padding-bottom: 30px;">
+                <p style="margin: 0 0 16px 0; font-size: 10px; color: #d4af37; text-transform: uppercase; letter-spacing: 3px; font-weight: 900; font-family: 'Inter', Arial, sans-serif;">Connect</p>
+                <p style="margin: 0 0 10px 0;"><a href="https://www.facebook.com/kellerwilliamssignature" style="color: #ffffff; opacity: 0.5; text-decoration: none; font-size: 12px; letter-spacing: 2px; font-family: 'Inter', Arial, sans-serif;">Facebook</a></p>
+                <p style="margin: 0 0 10px 0;"><a href="https://www.instagram.com/kwsignaturetx/" style="color: #ffffff; opacity: 0.5; text-decoration: none; font-size: 12px; letter-spacing: 2px; font-family: 'Inter', Arial, sans-serif;">Instagram</a></p>
+                <p style="margin: 0 0 10px 0;"><a href="https://www.youtube.com/@KWSignature" style="color: #ffffff; opacity: 0.5; text-decoration: none; font-size: 12px; letter-spacing: 2px; font-family: 'Inter', Arial, sans-serif;">YouTube</a></p>
+                <p style="margin: 0 0 10px 0;"><a href="https://kws17.com" style="color: #ffffff; opacity: 0.5; text-decoration: none; font-size: 12px; letter-spacing: 2px; font-family: 'Inter', Arial, sans-serif;">kws17.com</a></p>
+            </td>
+        </tr>
+    </table>
+</td>
+</tr>
+
+<!-- Office Info -->
+<tr>
+<td style="padding: 20px 30px 15px 30px; background-color: #000000; border-top: 1px solid rgba(255,255,255,0.05);" bgcolor="#000000" class="mobile-padding">
+    <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td align="center">
+                <p style="margin: 0 0 6px 0; font-size: 11px; color: #ffffff; opacity: 0.35; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; font-family: 'Inter', Arial, sans-serif;">
+                    KW Signature
+                </p>
+                <p style="margin: 0 0 4px 0; font-size: 11px; color: #ffffff; opacity: 0.25; line-height: 20px; font-family: 'Inter', Arial, sans-serif;">
+                    920 S Fry Rd, Katy, TX 77450
+                </p>
+                <p style="margin: 0 0 4px 0; font-size: 11px; color: #ffffff; opacity: 0.25; line-height: 20px; font-family: 'Inter', Arial, sans-serif;">
+                    <a href="tel:2815997600" style="color: #ffffff; text-decoration: none;">281-599-7600</a>
+                </p>
+                <p style="margin: 0; font-size: 11px; line-height: 20px;">
+                    <a href="https://kws17.com" style="color: #d4af37; opacity: 0.5; text-decoration: none; font-family: 'Inter', Arial, sans-serif;">kws17.com</a>
+                </p>
+            </td>
+        </tr>
+    </table>
+</td>
+</tr>
+
+<!-- Copyright + Brevo Unsubscribe -->
+<tr>
+<td style="padding: 15px 30px 40px 30px; background-color: #000000;" bgcolor="#000000" class="mobile-padding">
+    <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td align="center">
+                <p style="margin: 0 0 10px 0; font-size: 9px; color: #ffffff; opacity: 0.2; text-transform: uppercase; font-weight: 700; letter-spacing: 3px; line-height: 18px; font-family: 'Inter', Arial, sans-serif;">
+                    &copy; 2026 KW Signature Luxury.<br>Independently Owned and Operated.
+                </p>
+                <p style="margin: 0 0 12px 0; font-size: 10px; color: #ffffff; opacity: 0.2; line-height: 18px; font-family: 'Inter', Arial, sans-serif;">
+                    You've received this email because you've subscribed to our newsletter.
+                </p>
+                <!-- Brevo Unsubscribe Link -->
+                <p style="margin: 0; font-size: 10px; font-family: 'Inter', Arial, sans-serif;">
+                    <a href="{{ unsubscribe }}" style="color: #ffffff; opacity: 0.3; text-decoration: underline; letter-spacing: 1px;">Unsubscribe</a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="{{ mirror }}" style="color: #ffffff; opacity: 0.3; text-decoration: underline; letter-spacing: 1px;">View in Browser</a>
+                </p>
+            </td>
+        </tr>
+    </table>
+</td>
+</tr>
+
+
+</table>
+<!-- /Email Container -->
+
+</td>
+</tr>
+</table>
+<!-- /Outer Wrapper -->
+
 </body>
 </html>
